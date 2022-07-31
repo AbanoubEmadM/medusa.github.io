@@ -1,0 +1,32 @@
+.ProductItem {
+    display: flex;
+    margin: 50px 0;
+}
+.ProductTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+.AddToCart{
+    border: 2px solid var(--main-color);
+    padding: 8px 27px;
+    color: var(--main-color);
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+    width: 100%;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+.AddToCart:hover{
+    background-color: var(--main-color);
+    color: #fff;
+    transition: 0.3s;
+}
+.ProductImage {
+    width: 570px;
+    height: 570px;
+    object-fit: cover;
+}
+.ProductDetails {
+    margin-left: 30px;
+}

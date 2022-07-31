@@ -1,0 +1,33 @@
+.Discount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.Desc{
+    line-height: 35px;
+    font-size: 15px;
+    width: 75%;
+    margin: 25px 0;
+}
+.DiscountImg{
+    width: 100%;
+}
+.DiscountBtn{
+    text-decoration: none;
+    color: #fff;
+}
+.DiscountBtn:hover{
+    color: #fff;
+}
+@media (max-width: 500px){
+    .Discount{
+        flex-direction: column;
+    }
+    .Desc{
+        width: 100%;
+    }
+    .DiscountImg{
+        margin-top: 35px;
+    }
+}

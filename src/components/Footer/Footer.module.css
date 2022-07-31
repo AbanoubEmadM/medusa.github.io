@@ -1,0 +1,35 @@
+.Item{
+    list-style: none;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #777;
+    transition: 0.3s;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+}
+.Item:hover{
+    color: var(--main-color);
+    transition: 0.3s;
+}
+.List{
+    padding: 0;
+    margin: 25px 0;
+}
+.Form{
+    display: flex;
+}
+.Email{
+    height: 45px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 10px;
+    outline: none;
+}
+.Submit{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 45px;
+}
